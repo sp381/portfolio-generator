@@ -1,5 +1,4 @@
-var profileDataArgs = process.argv.slice(2, process.argv.length);
-console.log(profileDataArgs);
+const profileDataArgs = process.argv.slice(2);
 
 // Notice the lack of parentheses around the `profileDataArr` parameter?
 const printProfileData = profileDataArr => {
